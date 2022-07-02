@@ -15,7 +15,7 @@
 
 ### Kurulum
 - `git clone`
-- `docker-compose up -d —build`
+- `docker-compose up -d —-build`
 - `docker exec -it php bash`
 - `composer install`
 - `php bin/console make:migration`
