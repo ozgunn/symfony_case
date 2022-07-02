@@ -19,9 +19,9 @@
 - `docker exec -it php bash`
 - `composer install`
 - `php bin/console make:migration`
-- `php bin/console doctrine:fixture:load`
+- `php bin/console doctrine:fixtures:load`
 - `php bin/console lexik:jwt:generate-keypair`
-- Postman collection dosyası postman klasörü içindedir. Env oluşturulup host, token, login_username ve login_password değerleri girilmelidir.
+- Postman collection ve env dosyası postman klasörü içindedir.
 
 ### API adresleri
 - Login: `POST /api/login`
@@ -48,4 +48,3 @@
 - Geçerli bir JWT token olmadan login haricindeki sayfalara erişemez.
 - Kargoya verilmiş (shippingDate girilmişse) siparişi düzenleyemez.
 
-### Son
